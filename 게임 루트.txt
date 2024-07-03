@@ -1,0 +1,7 @@
+1. node .js command prompt 관리자 권한 실행
+2. E:
+3. cd "E:\12월 전자정부기반 e커머스 융합 sw개발자 박정은\plusalpha-github\game"
+4. npm run dev
+
+
+https://www.youtube.com/watch?v=LZvEDigv0Ww-4분 20초
