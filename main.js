@@ -31,6 +31,7 @@ const ground = Bodies.rectangle(310, 820, 620, 60, {
 });
 
 const topLine = Bodies.rectangle(310, 150, 620, 2, {
+    name: "topLine",
     isStatic: true,
     isSensor: true,
     render: { fillStyle: "#E6B143" }
@@ -44,6 +45,7 @@ Runner.run(engine);
 let currentBody = null;
 let currentFruit = null;
 let disableAction = false;
+let interval=null;
 
 function addFruit() {
     const index = Math.floor(Math.random() * 5);
@@ -72,15 +74,24 @@ window.onkeydown = (event) => {
 
     switch (event.code) {
         case "ArrowLeft":
-            if (x - radius > 30) {
-                Body.setPosition(currentBody, { x: x - 10, y });
-            }
+
+            interval=setInterval(()=>{
+                if (currentBody.position.x-currentFruit.radius>30)
+                    Body.setPosition(currentBody,{
+                        x: currentBody.position.x-1,
+                        y: currentBody.position.y,
+                    });
+            },5)
             break;
 
         case "ArrowRight":
-            if (x + radius < 590) {
-                Body.setPosition(currentBody, { x: x + 10, y });
-            }
+            interval=setInterval(()=>{
+                if (currentBody.position.x-currentFruit.radius>30)
+                    Body.setPosition(currentBody,{
+                        x: currentBody.position.x+1,
+                        y: currentBody.position.y,
+                    });
+            },5)
             break;
 
         case "ArrowDown":
@@ -95,12 +106,23 @@ window.onkeydown = (event) => {
     }
 };
 
+window.onkeyup=(event)=>{{
+    switch (event.code){
+        case "ArrowRight":
+        case "ArrowLeft":
+            clearInterval(interval);
+            interval=null;
+    }
+}}
+
+
+
 Events.on(engine, "collisionStart", (event) => {
     event.pairs.forEach((collision) => {
         if (collision.bodyA.index === collision.bodyB.index) {
             const index=collision.bodyA.index;
 
-            if (index===FRUITS_HLW.length-1) return;
+            if (index===FRUITS_HLW.length-1) return;        // ===: ==에 비해 엄격한 비교 - 형변환을 시도한 뒤 비교함
 
             World.remove(world, [collision.bodyA, collision.bodyB]);
 
@@ -120,6 +142,10 @@ Events.on(engine, "collisionStart", (event) => {
 
             World.add(world, newBody);
         }
+
+        if(!disableAction&&(
+            collision.bodyA.name==="topLine" || collision.bodyB.name==="topLine")) alert("Game Over!");
+        
     });
 });
 
