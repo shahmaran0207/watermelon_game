@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://shahmaran0207.github.io/game/",
+  "homepage": "https://shahmaran0207.github.io/watermelon_game/",
   "scripts": {
     "deploy": "gh-pages -d public",
     "dev": "vite",
