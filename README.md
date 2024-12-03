@@ -11,16 +11,16 @@
 
 - **과일 순서**
 1. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/00_cherry.png" alt="배너" width="100px"/>
-2. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/01_strawberry.png" alt="배너" width="100%"/>
-3. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/02_grape.png" alt="배너" width="100%"/>
-4. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/03_gyool.png" alt="배너" width="100%"/>
-5. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/04_orange.png" alt="배너" width="100%"/>
-6. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/05_apple.png" alt="배너" width="100%"/>
-7. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/06_pear.png" alt="배너" width="100%"/>
-8. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/07_peach.png" alt="배너" width="100%"/>
-9. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/08_pineapple.png" alt="배너" width="100%"/>
-10. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/09_melon.png" alt="배너" width="100%"/>
-11. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/10_watermelon.png" alt="배너" width="100%"/>
+2. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/01_strawberry.png" alt="배너" width="100px"/>
+3. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/02_grape.png" alt="배너" width="100px"/>
+4. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/03_gyool.png" alt="배너" width="100px"/>
+5. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/04_orange.png" alt="배너" width="100px"/>
+6. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/05_apple.png" alt="배너" width="100px"/>
+7. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/06_pear.png" alt="배너" width="100px"/>
+8. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/07_peach.png" alt="배너" width="100px"/>
+9. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/08_pineapple.png" alt="배너" width="100px"/>
+10. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/09_melon.png" alt="배너" width="100px"/>
+11. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/10_watermelon.png" alt="배너" width="100px"/>
 
 <br/><br/>
 
