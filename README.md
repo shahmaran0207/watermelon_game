@@ -10,7 +10,7 @@
 <br/><br/>
 
 - **과일 순서**
-1. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/00_cherry.png" alt="배너" width="100%"/>
+1. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/00_cherry.png" alt="배너" width="100px"/>
 2. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/01_strawberry.png" alt="배너" width="100%"/>
 3. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/02_grape.png" alt="배너" width="100%"/>
 4. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/03_gyool.png" alt="배너" width="100%"/>
