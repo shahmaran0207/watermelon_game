@@ -1,32 +1,77 @@
-# watermelon_game
-<img src="https://github.com/shahmaran0207/watermelon_game/blob/main/수박게임.png" alt="배너" width="100%"/>
+# 🍉 Watermelon Game
+
+<img src="https://github.com/shahmaran0207/watermelon_game/blob/main/수박게임.png" alt="Game Banner" width="100%"/>
 
 <br/><br/>
 
-# 🎮 node.js와 JS를 통한 수박게임 제작
+## 🎮 Project Overview
 
-- **프로젝트 설명**: 이 프로젝트는 node.js와 JS를 통하여 만든 간단한 수박게임입니다. **→와 ←키를 통해 좌우로 과일을 이동합니다. 이때 과일은 반투명으로 표시되어 있습니다. 놓고 싶은 위치로 과일을 이동했으면 **↓**키를 통하여 과일을 아래로 떨어뜨립니다. 이 때 같은 과일끼리 만나면 과일이 합쳐져 다음 과일로 변합니다. 
+**Watermelon Game** is a playful and engaging project built using **Node.js** and **JavaScript**. Players can move fruits left or right using the **← → keys** and drop them using the **↓ key**. Combine identical fruits to transform them into new ones, progressing through a sequence of fruits. However, if a fruit hits the boundary, it's **Game Over**!
+
+🎮 [**Play Now!**](https://neon-praline-dda96f.netlify.app/)  
+
+### Key Features:
+- **Smooth gameplay mechanics** with keyboard controls.
+- **Dynamic fruit combination** that evolves as you play.
+- **Challenging mechanics** to test your timing and strategy.
+
+<img src="https://github.com/shahmaran0207/watermelon_game/blob/main/gameover.png" alt="Game Over Screen" width="80%"/>
+
+<br/>
+
+---
+
+## 🍓 Fruit Evolution Sequence
+
+Fruits transform in the following order when combined:
+
+1. ![Cherry](https://github.com/shahmaran0207/watermelon_game/blob/main/public/00_cherry.png)  
+2. ![Strawberry](https://github.com/shahmaran0207/watermelon_game/blob/main/public/01_strawberry.png)  
+3. ![Grape](https://github.com/shahmaran0207/watermelon_game/blob/main/public/02_grape.png)  
+4. ![Tangerine](https://github.com/shahmaran0207/watermelon_game/blob/main/public/03_gyool.png)  
+5. ![Orange](https://github.com/shahmaran0207/watermelon_game/blob/main/public/04_orange.png)  
+6. ![Apple](https://github.com/shahmaran0207/watermelon_game/blob/main/public/05_apple.png)  
+7. ![Pear](https://github.com/shahmaran0207/watermelon_game/blob/main/public/06_pear.png)  
+8. ![Peach](https://github.com/shahmaran0207/watermelon_game/blob/main/public/07_peach.png)  
+9. ![Pineapple](https://github.com/shahmaran0207/watermelon_game/blob/main/public/08_pineapple.png)  
+10. ![Melon](https://github.com/shahmaran0207/watermelon_game/blob/main/public/09_melon.png)  
+11. ![Watermelon](https://github.com/shahmaran0207/watermelon_game/blob/main/public/10_watermelon.png)  
 
 <br/><br/>
 
-- **과일 순서**
-1. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/00_cherry.png" alt="배너" width="100px"/>
-2. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/01_strawberry.png" alt="배너" width="100px"/>
-3. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/02_grape.png" alt="배너" width="100px"/>
-4. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/03_gyool.png" alt="배너" width="100px"/>
-5. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/04_orange.png" alt="배너" width="100px"/>
-6. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/05_apple.png" alt="배너" width="100px"/>
-7. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/06_pear.png" alt="배너" width="100px"/>
-8. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/07_peach.png" alt="배너" width="100px"/>
-9. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/08_pineapple.png" alt="배너" width="100px"/>
-10. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/09_melon.png" alt="배너" width="100px"/>
-11. <img src="https://github.com/shahmaran0207/watermelon_game/blob/main/public/10_watermelon.png" alt="배너" width="100px"/>
+---
 
-<br/><br/>
+## 👥 Team Members
 
-# 👥 Team Members (팀원 소개)
-| 팀원 이름 | GitHub |
-|:---------:|:------:|
-| 박정은 | [GitHub](https://github.com/shahmaran0207) |
+| Name    | GitHub Profile |
+|:-------:|:--------------:|
+| **박정은** | [GitHub](https://github.com/shahmaran0207) |
 
-<br/><br/>
+<br/>
+
+---
+
+## 🛠️ Technology Stack
+
+### **Backend**
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
+
+### **Frontend**
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+<br/>
+
+---
+
+## 🕹️ How to Play
+
+1. **Move Left/Right**: Use the **←** and **→** keys to position the fruit.
+2. **Drop Fruit**: Use the **↓ key** to drop the fruit into the stack.
+3. **Combine Fruits**: Align identical fruits to transform them into the next fruit in the sequence.
+4. **Avoid Boundaries**: Don't let the fruit hit the edge, or the game will end.
+
+---
+
+## 🚀 Game Demo
+
+🎮 Try the game now on [**Netlify**](https://neon-praline-dda96f.netlify.app/)!
